@@ -1,3 +1,4 @@
 # backup shell script
 
-Backup virtual machine home folder to the C: drive.
+Backup Linux virtual machine home folder to the C: drive.
+Delete leftover files and tarballs.
