@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#delete leftover a.out files
+find . -type f -name a.out -delete
+
 echo Backing up ${HOME} to C:
 # zip up the directory, excluding all hidden files
 tar -czf "/mnt/c/Users/aaron/Pengwin/backups/pengwin_home.tgz" --exclude='.*' "${HOME}" 
